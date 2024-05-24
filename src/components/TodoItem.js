@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 
-const TodoItem = ({item,deleteItem}) => {
+const TodoItem = ({item,deleteItem,toggleComplete}) => {
 
   return (
     <Row>

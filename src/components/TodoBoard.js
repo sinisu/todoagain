@@ -2,7 +2,7 @@ import React from "react";
 import TodoItem from "./TodoItem"
 
 
-const TodoBoard = ({todoList,deleteItem}) => {
+const TodoBoard = ({todoList,deleteItem,toggleComplete}) => {
   return (
     <div>
       <h2>Todo List</h2>
